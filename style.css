@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins:wght@100&family=Roboto:wght@900&display=swap');
+
+@keyframes slideInLeft {
+    from{
+        transform:  translateX(-300px);
+    }
+    to{
+        transform: translateX(0);
+    }
+    
+}
+
+.nav-item a:hover{
+    background-color: black;
+    border-radius: 15%;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.card:hover{
+    background-color: rgb(74, 74, 74);
+    border-radius: 2%;
+    color: white;
+}
+
+body{
+    background-image: url('https://wallpapercave.com/wp/wp8003058.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(19, 21, 23, 0.5);
+    align-items: center;
+    color: white;
+
+}
+
+
+.btn:hover{
+    transform: translateY(-10px);
+    background-color: black;
+    color: white;
+}
+
+.form-control{
+    animation: slideInLeft 1s ease 5ms 1 normal both;
+}
+
+.card {
+    animation: slideInLeft 1s ease 5ms 1 normal both;
+}
+
+.home-title{
+    text-align: left;
+    padding: 3%;
+    font-family: 'Oswald', sans-serif;
+}
